@@ -23,6 +23,7 @@ console.log(view);
 
 // Without change "var" keyword to "let", we can solve this problem using
 // IIFE (Immediately Invoked Function Expression)
+// Very Interesting thing!!!
 const array = [1,2,3,4]
 for (var i = 0; i < array.length; i++) {
   (function(closureI) {
